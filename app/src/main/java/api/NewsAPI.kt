@@ -1,6 +1,6 @@
 package api
 
-import com.androiddevs.mvvmnewsapp.ui.NewsResponse
+import models.NewsResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

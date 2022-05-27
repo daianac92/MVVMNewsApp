@@ -1,4 +1,4 @@
-package util
+package com.androiddevs.mvvmnewsapp.util
 
 class Constants {
     companion object {

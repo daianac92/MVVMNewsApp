@@ -1,10 +1,10 @@
-package api
+package com.androiddevs.mvvmnewsapp.api
 
+import com.androiddevs.mvvmnewsapp.util.Constants.Companion.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import util.Constants.Companion.BASE_URL
 
 class RetrofitInstance {
     companion object {

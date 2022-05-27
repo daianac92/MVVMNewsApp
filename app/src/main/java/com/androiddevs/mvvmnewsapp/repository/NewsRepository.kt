@@ -1,8 +1,8 @@
-package repository
+package com.androiddevs.mvvmnewsapp.repository
 
-import api.RetrofitInstance
-import db.ArticleDataBase
-import models.Article
+import com.androiddevs.mvvmnewsapp.api.RetrofitInstance
+import com.androiddevs.mvvmnewsapp.db.ArticleDataBase
+import com.androiddevs.mvvmnewsapp.models.Article
 
 class NewsRepository(
     val db: ArticleDataBase

@@ -1,11 +1,11 @@
-package db
+package com.androiddevs.mvvmnewsapp.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import models.Article
+import com.androiddevs.mvvmnewsapp.models.Article
 
 @Database(
     entities = [Article::class],
@@ -30,7 +30,7 @@ abstract class ArticleDataBase : RoomDatabase() {
             Room.databaseBuilder(
                 context.applicationContext,
                 ArticleDataBase::class.java,
-                "article_db.db"
+                "article_db.com.androiddevs.mvvmnewsapp.db"
             ).build()
 
     }
